@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SHOP-SHOP</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <!------------------navigation bar---------------------->
+        <nav class="sticky">
+            <img src="LogoSample_ByTailorBrands.jpg" alt="logo" />
+
+            <ul class="list">
+                <li><a href="#about_us">About-us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li class="drop-down">
+                    <a>Products</a>
+                    <div class="drop-down-content">
+                        <a>Phone</a>
+                        <a>PC's</a>
+                        <a>Electronic-Carts</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-------------------About us--------------------------------->
+        <h2 id="about_us">About us</h2>
+        <section id="about-us">
+            <img src="LogoSample.jpg" alt="Logo" width="400" />
+            <div id="para">
+                <h1>Welcome to the <b>SHOP-SHOP</b></h1>
+                <p>This is the first site of the buying elecronic Shop.</p>
+                <p>We offer you the greatest qulity with minimum preices in the market</p>
+                <p>we offer you a variety of products such us:</p>
+                <ol>
+                    <li>Pc's</li>
+                    <li>Phones</li>
+                    <li>Electronic-Carts</li>
+                </ol>
+            </div>
+        </section>
+        <hr />
+        <br />
+
+        <!-------section home---------->
+        <h1 id="home">Home</h1>
+
+        <h2 id="title1">
+            <center>total : <span id="total"> 0 </span> $</center>
+        </h2>
+
+        <section id="chart">
+            <div class="prodd">
+                <img src="PC.jpg" alt="PC" height="200" width="200" title="PC" />
+                <h3>Price</h3>
+                <h3 id="price">599</h3>
+                <div class="inside">
+                    <button class="btnp">+</button>
+                    <span id="quantity"> 0 </span>
+                    <button class="btnm">-</button>
+                    <button class="btn-delete">delete</button>
+                    <i class="fas fa-heart fa-2x"></i>
+                </div>
+            </div>
+            <br />
+
+            <div class="prodd">
+                <img src="phone.jpg" alt="Phone" height="200" width="200" title="phone" />
+                <h3>Price</h3>
+                <h3 id="price">99</h3>
+                <div class="inside">
+                    <button class="btnp">+</button>
+                    <span id="quantity"> 0 </span>
+                    <button class="btnm">-</button>
+                    <button class="btn-delete">delete</button>
+                    <i class="fas fa-heart fa-2x"></i>
+                </div>
+            </div>
+            <br />
+
+            <div class="prodd">
+                <img
+                    src="electronic crts.jpg"
+                    alt="electronic"
+                    height="200"
+                    width="200"
+                    title="phone"
+                />
+                <h3>Price</h3>
+                <h3 id="price">35</h3>
+                <div class="inside">
+                    <button class="btnp">+</button>
+                    <span id="quantity"> 0 </span>
+                    <button class="btnm">-</button>
+                    <button class="btn-delete">delete</button>
+                    <i class="fas fa-heart fa-2x"></i>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <footer>
+            <p>this site is commercial ,for more deatails don't hesitate to contact us</p>
+            <p>** *** *** / *****.*****@gmail.com</p>
+        </footer>
+        <script src="cart.js"></script>
+    </body>
+</html>
